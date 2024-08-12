@@ -1,7 +1,7 @@
 # Formulário
 Esse foi o modelo que eu usei para fazer o formulário de EHS para usar no meu trabalho.
 
-Abaixo fica toda a referência do criado das marcações
+Abaixo fica toda a referência do criado das marcações.
 
 Aprenda como criar um simples e elegante formulário com HTML e CSS
 <br>
