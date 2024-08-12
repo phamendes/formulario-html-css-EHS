@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário | GN</title>
+    <title>Formulário | Phablo</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
@@ -34,6 +34,9 @@
         .inputBox{
             position: relative;
         }
+        .row{
+            position: relative;
+        }
         .inputUser{
             background: none;
             border: none;
@@ -57,7 +60,7 @@
             font-size: 12px;
             color: rgb(30, 255, 68);
         }
-        #data_nascimento{
+        #data_ocorrencia{
             border: none;
             padding: 8px;
             border-radius: 10px;
@@ -87,18 +90,14 @@
                 <br>
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome" class="inputUser" required>
-                    <label for="nome" class="labelInput">Nome completo</label>
+                    <label for="nome" class="labelInput">Nome</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
                     <input type="text" name="setor" id="email" class="inputUser" required>
-                    <label for="email" class="labelInput">Setor</label>
+                    <label for="email" class="labelInput">Departamento</label>
                 </div>
                 <br><br>
-                <div class="inputBox">
-                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                    <label for="telefone" class="labelInput">Telefone</label>
-                </div>
                 <p>Evento:</p>
                 <input type="radio" id="meio-ambiente" name="genero" value="meio-ambiente" required>
                 <label for="meio-ambiente">Meio Ambiente</label>
@@ -122,19 +121,8 @@
                 <label for="data_ocorrencia"><b>Data da Ocorrência:</b></label>
                 <input type="date" name="data_ocorrencia" id="data_ocorrencia" required>
                 <br><br><br>
-                <div class="inputBox">
-                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                    <label for="cidade" class="labelInput">Cidade</label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" name="estado" id="estado" class="inputUser" required>
-                    <label for="estado" class="labelInput">Estado</label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                    <label for="endereco" class="labelInput">Endereço</label>
+                <div class="row">
+                    <textarea name="descricao" id="txtDescrição" rows="7" required> </textarea>
                 </div>
                 <br><br>
                 <input type="submit" name="submit" id="submit">
